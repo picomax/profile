@@ -1,0 +1,37 @@
+.tbl_theater {
+  width: 750px;
+  height: 544px;
+  padding: 0;
+  margin: 0;
+  background: url('./img/bg_theater_750.jpg') no-repeat left top;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.tbl_film {
+  height: 110px;
+  padding: 0;
+  margin: 0;
+  background: url('./img/bg_film.png') repeat-x left top;
+  display: inline-block;
+}
+/*
+.tbl_maro {
+  width: 675px;
+  height: 125px;
+  background: url('./img/chr_maro.png') no-repeat right bottom;
+}
+*/
+#video_iframe {
+  position: relative;
+  top: 85px;
+  left: 88px;
+}
+
+#slot_no1,#slot_no2,#slot_no3,#slot_no4,#slot_no5 {
+  cursor: pointer;
+  font-family:     "Helvetica Neue", "Lucida Grande", sans-serif;
+  color:         #FFFFFF;
+  font-size:       12px;
+}
+
